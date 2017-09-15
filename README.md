@@ -1,10 +1,12 @@
 # extract-json-string
-Module for extracting JSON objects from a string dump. 
+Simple module for extracting JSON objects from a string dump. 
 
 ## Usage
 
 ### Return an array of objects from a string containing stringified JSON objects.
 ```
+var ejs = require('extract-json-string')
+
 const logdump = `
     18:28:54,289 [83] INFO Files Process Start.... 
     // having mismatched braces { works
@@ -25,7 +27,7 @@ const logdump = `
         "age" : 21
     } etc...
 `
-var objs = extractor.extract(logdump)
+var objs = ejs.extract(logdump)
 console.log(objs)
 ```
 
