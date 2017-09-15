@@ -1,0 +1,11 @@
+{
+  "name": "extract-json-string",
+  "version": "1.0.0",
+  "description": "Simple module for extracting JSON objects from a string dump.",
+  "main": "extract-json-string.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "esoodev@gmail.com",
+  "license": "MIT"
+}
