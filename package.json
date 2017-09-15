@@ -6,6 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoodev/extract-json-string.git"
+  },
+  "keywords": [
+    "json",
+    "extract",
+    "string",
+    "parse",
+    "array",
+    "simple",
+    "log"
+  ],
   "author": "esoodev@gmail.com",
   "license": "MIT"
 }
